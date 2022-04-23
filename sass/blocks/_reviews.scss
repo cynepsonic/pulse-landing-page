@@ -1,0 +1,33 @@
+.reviews {
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    &__review {
+        display: flex;
+        margin-top: 60px;
+    }
+    &__photo {
+        display: flex;
+        align-items: center;
+    }
+    &__descr {
+        margin-left: 60px;
+    }
+    &__name {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    &__achievements {
+        color: #6b6b6b;
+        font-size: 12px;
+        margin-top: 10px;
+        font-weight: 700;
+    }
+    &__letter {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
